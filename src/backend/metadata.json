@@ -1,0 +1,146 @@
+[
+  {
+    "name": "1",
+    "path": "/assets/natureHero/1.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "2",
+    "path": "/assets/natureHero/2.png",
+    "gender": "male",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "3",
+    "path": "/assets/natureHero/3.png",
+    "gender": "female",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "4",
+    "path": "/assets/natureHero/4.png",
+    "gender": "male",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "5",
+    "path": "/assets/natureHero/5.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "6",
+    "path": "/assets/natureHero/6.png",
+    "gender": "female",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "7",
+    "path": "/assets/natureHero/7.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "8",
+    "path": "/assets/natureHero/8.png",
+    "gender": "male",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "9",
+    "path": "/assets/natureHero/9.png",
+    "gender": "male",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "10",
+    "path": "/assets/natureHero/10.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "11",
+    "path": "/assets/natureHero/11.png",
+    "gender": "male",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "12",
+    "path": "/assets/natureHero/12.png",
+    "gender": "male",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "13",
+    "path": "/assets/natureHero/13.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "14",
+    "path": "/assets/natureHero/14.png",
+    "gender": "female",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "15",
+    "path": "/assets/natureHero/15.png",
+    "gender": "",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "16",
+    "path": "/assets/natureHero/16.png",
+    "gender": "male",
+    "ageRange": "30-50"
+  },
+  {
+    "name": "17",
+    "path": "/assets/natureHero/17.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "18",
+    "path": "/assets/natureHero/18.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "19",
+    "path": "/assets/natureHero/19.png",
+    "gender": "male",
+    "ageRange": "30-50"
+  },
+  {
+    "name": "20",
+    "path": "/assets/natureHero/20.png",
+    "gender": "male",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "21",
+    "path": "/assets/natureHero/21.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "22",
+    "path": "/assets/natureHero/22.png",
+    "gender": "male",
+    "ageRange": "16-30"
+  },
+  {
+    "name": "23",
+    "path": "/assets/natureHero/23.png",
+    "gender": "male",
+    "ageRange": "5-15"
+  },
+  {
+    "name": "24",
+    "path": "/assets/natureHero/24.png",
+    "gender": "female",
+    "ageRange": "30-50"
+  }
+]

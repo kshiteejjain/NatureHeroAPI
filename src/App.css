@@ -1,0 +1,136 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 14px 0;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.form {
+  width: 500px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: left;
+}
+.form h2{
+  margin: 0 0 20px 0;
+  font-size: calc(var(--baseFontSize) + 4px);
+}
+
+.form .radio {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.form .radio label {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.form .radio label input {
+  margin: 0 5px 0 0;
+}
+
+.form input,
+.form select {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.8rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font-size: calc(var(--baseFontSize) - 1px);
+}
+
+.btn-primary {
+  background-color: #f17d03;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #cb6a03;
+}
+
+.btn-danger {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #d80303;
+}
+
+.image-list {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.image-list h2 {
+  width: 100%;
+  text-align: left;
+}
+
+.image-list .image-area {
+  background-color: #eef9ffed;
+  border: 1px solid #bfbfbf;
+  width: 18%;
+  margin: 0 20px 20px 0;
+  text-align: left;
+  border-radius: 4px;
+}
+.image-list .image-area:hover {
+  background-color: #eef9ff;
+}
+
+.image-list .image-area img {
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+.image-list .image-area p {
+  margin: 0 10px 10px 10px;
+}
+
+.image-list .btn-danger {
+  margin: 10px 0 10px 10px;
+}
+.success {
+  margin: 30px 0;
+  background-color: #038f28;
+  padding: 17px 40px;
+  display: inline-block;
+  color: white;
+  border-radius: 8px;
+  font-weight: normal;
+}
+.success a{
+  color: #ffffff;
+  font-weight: bold;
+}
+.success a:hover{
+  color: #ffffff;
+}
