@@ -48,7 +48,7 @@ app.post('/upload', upload.single('image'), (req, res) => {
 
   const metadata = {
     name,
-    path: path.join('assets', 'natureHero', file.filename),
+    path: path.join('/assets', 'natureHero', file.filename),
     gender,
     ageRange,
   };
@@ -65,7 +65,7 @@ app.get('/images', (req, res) => {
     const baseUrl = req.protocol + '://' + req.get('host');
     res.json(metadata.map(item => ({
       name: item.name,
-      url: path.join(baseUrl, item.path),
+      url: baseUrl + item.path,
       gender: item.gender,
       ageRange: item.ageRange,
     })));
