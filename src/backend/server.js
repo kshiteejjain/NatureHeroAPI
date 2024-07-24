@@ -48,7 +48,7 @@ app.post('/upload', upload.single('image'), (req, res) => {
 
   const metadata = {
     name,
-    path: path.join('/assets', 'natureHero', file.filename),
+    path: path.join('natureHero', file.filename), // Store relative path
     gender,
     ageRange,
   };
@@ -62,7 +62,7 @@ app.get('/images', (req, res) => {
   fs.readFile(METADATA_FILE, 'utf8', (err, data) => {
     if (err) return res.status(500).json({ message: 'Failed to fetch metadata' });
     const metadata = JSON.parse(data);
-    const baseUrl = req.protocol + '://' + req.get('host');
+    const baseUrl = req.protocol + '://' + req.get('host') + '/assets/';
     res.json(metadata.map(item => ({
       name: item.name,
       url: baseUrl + item.path,
