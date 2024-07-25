@@ -62,7 +62,7 @@ app.get('/images', (req, res) => {
   fs.readFile(METADATA_FILE, 'utf8', (err, data) => {
     if (err) return res.status(500).json({ message: 'Failed to fetch metadata' });
     const metadata = JSON.parse(data);
-    const baseUrl = req.protocol + '://' + req.get('host') + '/assets/';
+    const baseUrl = 'https://nature-hero-api.vercel.app/assets/natureHero/';
     res.json(metadata.map(item => ({
       name: item.name,
       url: baseUrl + item.path,
