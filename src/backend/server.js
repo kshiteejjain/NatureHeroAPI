@@ -72,6 +72,7 @@ app.get('/images', (req, res) => {
   });
 });
 
+
 // Serve the images statically
 app.use('/assets/natureHero', express.static(UPLOADS_DIR));
 
