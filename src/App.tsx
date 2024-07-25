@@ -22,7 +22,7 @@ const App: React.FC = () => {
 
     const fetchImages = async () => {
         try {
-            const response = await axios.get<Image[]>('http://localhost:3001/images');
+            const response = await axios.get<Image[]>('https://nature-hero-api.vercel.app/images');
             setImages(response.data);
         } catch (error) {
             console.error('Error fetching images:', error);
